@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(images/50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg);
+    background-position: center;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    
+    display: block;
+    background-repeat: no-repeat;
+
+}
+.menu{
+    background-color: rgb(101, 216, 187);
+    text-align: center;
+    background-size: 20px;
+    height: 100px;
+    display: block;
+}
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+    color: rgb(43, 153, 226);
+}
+.menu ul li{
+    width: 120px;
+    height: 50px;
+    margin: 15px;
+    padding: 15px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(32, 32, 29);
+}
+.active, .menu ul li:hover{
+    background: rgb(157, 233, 197);
+    background-size: 2px;
+    border-radius: 5px;
+}
+.sub1{
+    display: none;
+}
+
+
+.menu ul li:hover .sub1{
+    display: block;
+    position: absolute;
+    background: rgb(101, 216, 187);
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+.menu ul li:hover .sub1 ul{
+    display: block;
+    width: 100px;
+    text-align: center;
+
+    
+    margin: 10px;
+}
+.menu ul li:hover .sub1 ul li{
+    width: 80px;
+    text-align: center;
+}
